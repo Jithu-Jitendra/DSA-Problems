@@ -42,9 +42,9 @@ class SubArrSumEqualsK {
         System.out.print("Enter the value of k: ");
         int k = sc.nextInt();
 
-        SubArrSumEqualsK obj = new SubArrSumEqualsK();
+        SubArrSumEqualsK obj1 = new SubArrSumEqualsK();
 
-        int ans = obj.subarraySum(nums, k);
+        int ans = obj1.subarraySum(nums, k);
 
         System.out.println("Number of subarrays with sum " + k + " = " + ans);
 
